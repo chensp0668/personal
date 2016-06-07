@@ -10,6 +10,6 @@ public class Operation3Test {
 		double y = 10;
 		for (Operation3 op : Operation3.values())
 			System.out.printf("%f %s %f = %f%n", x, op, y, op.apply(x, y));
-
+		System.out.println("test");
 	}
 }
